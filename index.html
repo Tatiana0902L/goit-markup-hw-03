@@ -21,7 +21,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="header-container">
       <div class="container header-container">
         <nav class="nav">
           <a class="logo" href="./index.html"
@@ -34,7 +34,7 @@
           </ul>
         </nav>
         <address id="#contacts" class="cnt">
-          <ul>
+          <ul class="cnt-list">
             <li>
               <a href="mailto:info@devstudio.com" class="cnt-address"
                 >info@devstudio.com</a
@@ -62,7 +62,7 @@
         <div class="container">
           <h2 class="section-title visually-hidden">Our Advantages</h2>
           <ul class="second-page-list">
-            <li>
+            <li class="second-page-list-item">
               <h3 class="second-page">Strategy</h3>
               <p class="second-page-text">
                 Our goal is to identify the business problem to walk away with
@@ -70,7 +70,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="second-page-list-item">
               <h3 class="second-page">Punctuality</h3>
               <p class="second-page-text">
                 Bring the key message to the brand's audience for the best price
@@ -78,7 +78,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="second-page-list-item">
               <h3 class="second-page">Diligence</h3>
               <p class="second-page-text">
                 Research and confirm brands with the strongest digital growth
@@ -86,7 +86,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="second-page-list-item">
               <h3 class="second-page">Technologies</h3>
               <p class="second-page-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -102,112 +102,134 @@
           <h2 class="third-page-title">Our Team</h2>
           <ul class="worker-list">
             <li class="worker">
-              <img
-                src="./images/MarkGuerrero.jpg"
-                alt="photo Mark Guerrero"
-                width="264"
-              />
-              <h3 class="worker-person">Mark Guerrero</h3>
-              <p class="worker-person-position">Product Designer</p>
+              <div class="worker-list-item">
+                <img
+                  src="./images/MarkGuerrero.jpg"
+                  alt="photo Mark Guerrero"
+                  width="264"
+                />
+                <h3 class="worker-person">Mark Guerrero</h3>
+                <p class="worker-person-position">Product Designer</p>
+              </div>
             </li>
 
             <li class="worker">
-              <img
-                src="./images/TomFord.jpg"
-                alt="photo Tom Ford"
-                width="264"
-              />
-              <h3 class="worker-person">Tom Ford</h3>
-              <p class="worker-person-position">Frontend Developer</p>
+              <div class="worker-list-item">
+                <img
+                  src="./images/TomFord.jpg"
+                  alt="photo Tom Ford"
+                  width="264"
+                />
+                <h3 class="worker-person">Tom Ford</h3>
+                <p class="worker-person-position">Frontend Developer</p>
+              </div>
             </li>
 
             <li class="worker">
-              <img
-                src="./images/CamilaGarcia.jpg"
-                alt="photo Camila Garcia"
-                width="264"
-              />
-              <h3 class="worker-person">Camila Garcia</h3>
-              <p class="worker-person-position">Marketing</p>
+              <div class="worker-list-item">
+                <img
+                  src="./images/CamilaGarcia.jpg"
+                  alt="photo Camila Garcia"
+                  width="264"
+                />
+                <h3 class="worker-person">Camila Garcia</h3>
+                <p class="worker-person-position">Marketing</p>
+              </div>
             </li>
 
             <li class="worker">
-              <img
-                src="./images/DanielWilson.jpg"
-                alt="photo Daniel Wilson"
-                width="264"
-              />
-              <h3 class="worker-person">Daniel Wilson</h3>
-              <p class="worker-person-position">UI Designer</p>
+              <div class="worker-list-item">
+                <img
+                  src="./images/DanielWilson.jpg"
+                  alt="photo Daniel Wilson"
+                  width="264"
+                />
+                <h3 class="worker-person">Daniel Wilson</h3>
+                <p class="worker-person-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
 
-      <section id="Portfolio">
-        <h2 class="fourth-page">Our Portfolio</h2>
-        <ul class="portfolio-list">
-          <li class="portfolio-item">
-            <img
-              src="./images/BankingApp.jpg"
-              alt="screenshots from the app"
-              width="360"
-            />
-            <h3 class="portfolio">Banking App</h3>
-            <p class="portfolio-text">App</p>
-            >
-          </li>
+      <section class="fourth" id="#portfolio">
+        <div class="container">
+          <h2 class="fourth-page">Our Portfolio</h2>
+          <ul class="portfolio-item">
+            <li class="portfolio-list">
+              <div class="portfolio-list-item">
+                <img
+                  src="./images/BankingApp.jpg"
+                  alt="screenshots from the app"
+                  width="360"
+                />
+                <h3 class="portfolio">Banking App</h3>
+                <p class="portfolio-text">App</p>
+                >
+              </div>
+            </li>
 
-          <li class="portfolio-item">
-            <img
-              src="./images/CashlessPayment.jpg"
-              alt="Cashless Payment"
-              width="360"
-            />
-            <h3 class="portfolio">Cashless Payment</h3>
-            <p class="portfolio-text">Marketing</p>
-          </li>
+            <li class="portfolio-list">
+              <div class="portfolio-list-item">
+                <img
+                  src="./images/CashlessPayment.jpg"
+                  alt="Cashless Payment"
+                  width="360"
+                />
+                <h3 class="portfolio">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
+            </li>
 
-          <li class="portfolio-item">
-            <img
-              src="./images/MeditationApp.jpg"
-              alt="Laptop with phone"
-              width="360"
-            />
-            <h3 class="portfolio">Meditation App</h3>
-            <p class="portfolio-text">App</p>
-          </li>
+            <li class="portfolio-list">
+              <div class="portfolio-list-item">
+                <img
+                  src="./images/MeditationApp.jpg"
+                  alt="Laptop with phone"
+                  width="360"
+                />
+                <h3 class="portfolio">Meditation App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
+            </li>
 
-          <li class="portfolio-item">
-            <img
-              src="./images/TaxiService.jpg"
-              alt="car steering wheel with phone"
-              width="360"
-            />
-            <h3 class="portfolio">Taxi Service</h3>
-            <p class="portfolio-text">Marketing</p>
-          </li>
+            <li class="portfolio-list">
+              <div class="portfolio-list-item">
+                <img
+                  src="./images/TaxiService.jpg"
+                  alt="car steering wheel with phone"
+                  width="360"
+                />
+                <h3 class="portfolio">Taxi Service</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
+            </li>
 
-          <li class="portfolio-item">
-            <img
-              src="./images/ScreenIllustrations.jpg"
-              alt="screenshot from phone"
-              width="360"
-            />
-            <h3 class="portfolio">Screen Illustrations</h3>
-            <p class="portfolio-text">Design</p>
-          </li>
+            <li class="portfolio-list">
+              <div class="portfolio-list-item">
+                <img
+                  src="./images/ScreenIllustrations.jpg"
+                  alt="screenshot from phone"
+                  width="360"
+                />
+                <h3 class="portfolio">Screen Illustrations</h3>
+                <p class="portfolio-text">Design</p>
+              </div>
+            </li>
 
-          <li class="portfolio-item">
-            <img
-              src="./images/OnlineCourses.jpg"
-              alt="girl in glasses with headphones and phone"
-              width="360"
-            />
-            <h3 class="portfolio">Online Courses</h3>
-            <p class="portfolio-text">Marketing</p>
-          </li>
-        </ul>
+            <li class="portfolio-list">
+              <div class="portfolio-list-item">
+                <img
+                  src="./images/OnlineCourses.jpg"
+                  alt="girl in glasses with headphones and phone"
+                  width="360"
+                />
+                <h3 class="portfolio">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 

@@ -30,7 +30,7 @@ section {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -52,7 +52,6 @@ section {
 .nav-sckrol {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .cnt-list {
@@ -69,6 +68,7 @@ section {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .accent-logo {
@@ -79,7 +79,6 @@ section {
 .logo .accent-logo {
   flex-grow: 1;
   gap: 76px;
-  margin-right: 76px;
 }
 
 .nav-sckrol .link {
@@ -97,6 +96,7 @@ section {
 
 .link {
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .cnt {
@@ -183,7 +183,7 @@ section {
 }
 
 .second-page-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .second-page {
@@ -273,7 +273,7 @@ section {
 }
 
 .portfolio-list {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
   background: #fff;
 }

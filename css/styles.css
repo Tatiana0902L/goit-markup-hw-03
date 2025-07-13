@@ -89,6 +89,7 @@ section {
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  display: block;
 }
 
 .nav-sckrol .link:focus,
@@ -121,11 +122,7 @@ section {
 
 .main-page {
   background-color: #2e2f42;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 48px;
-  margin-bottom: 120px;
   text-align: center;
   padding: 188px 0;
 }
@@ -139,6 +136,8 @@ section {
   color: #fff;
   max-width: 496px;
   margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .main-page-btn {
@@ -155,6 +154,8 @@ section {
   border-radius: 4px;
   height: 56px;
   border: none;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .main-page-btn:hover,
@@ -227,6 +228,7 @@ section {
 .worker {
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
+  background-color: #fff;
 }
 
 .worker-list-item {
@@ -276,8 +278,6 @@ section {
 
 .portfolio-list {
   width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
-  background: #fff;
 }
 
 .portfolio-list-item {
@@ -292,7 +292,6 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
   margin-bottom: 8px;
 }
 
